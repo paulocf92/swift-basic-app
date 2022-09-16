@@ -40,10 +40,10 @@ class ViewController: UIViewController {
         super.viewDidLayoutSubviews()
         
         button.frame = CGRect(
-            x: 20,
-            y: view.frame.height-50-view.safeAreaInsets.bottom,
-            width: view.frame.size.width-40,
-            height: 50
+            x: 30,
+            y: view.frame.height-150-view.safeAreaInsets.bottom,
+            width: view.frame.size.width-60,
+            height: 55
         )
     }
 
